@@ -150,15 +150,15 @@ if (isMobile) {
 }
 
 if (isMobile) {
-    loadTex('assets/mobile/fundobrancomobilemenino.png', 'uBg1');
-    loadTex('assets/mobile/fundobrancomobilespider.png', 'uBg2');
+    loadTex('assets/mobile/fundobrancomobile.webp', 'uBg1');
+    loadTex('assets/mobile/fundobrancomobile.webp', 'uBg2');
     loadTex('assets/mobile/meninomobilesemfundo.webp', 'uChar1');
-    loadTex('assets/mobile/spidermobilesemfundo.png', 'uChar2');
+    loadTex('assets/mobile/spidermobilesemfundo.webp', 'uChar2');
 } else {
-    loadTex('assets/desktop/fundo brancomenino.png', 'uBg1');
-    loadTex('assets/desktop/fundobrancospider.png', 'uBg2');
+    loadTex('assets/desktop/fundobrancomenino.webp', 'uBg1');
+    loadTex('assets/desktop/fundobrancospider.webp', 'uBg2');
     loadTex('assets/desktop/Semfundomenino.webp', 'uChar1');
-    loadTex('assets/desktop/semfundospider.png', 'uChar2');
+    loadTex('assets/desktop/semfundospider.webp', 'uChar2');
 }
 document.addEventListener('mousemove', (e) => {
     mouse.x = e.clientX / window.innerWidth;

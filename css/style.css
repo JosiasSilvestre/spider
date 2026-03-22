@@ -100,10 +100,9 @@ canvas { display: block; }
 .info-card .card-number {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 120px;
-    line-height: 0.8;
+    line-height: .9;
     color: transparent;
     -webkit-text-stroke: 1px rgba(226, 54, 54, 0.3);
-    letter-spacing: -4px;
     user-select: none;
 }
 
@@ -120,7 +119,7 @@ canvas { display: block; }
     letter-spacing: 5px;
     text-transform: uppercase;
     font-weight: 600;
-    margin-bottom: 2px;
+    margin-bottom: 8px;
 }
 
 .info-card .title {
@@ -142,7 +141,7 @@ canvas { display: block; }
     font-size: 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: rgba(80, 80, 80, 0.7);
+    color: rgba(80, 80, 80, 0.75);
 }
 
 .info-card .meta-item span {
@@ -161,7 +160,7 @@ canvas { display: block; }
     bottom: 50px; right: 50px;
     z-index: 10;
     pointer-events: none;
-    color: rgba(80, 80, 80, 0.8);
+    color: rgba(80, 80, 80, 1);
     font-size: 13px;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 3px;
@@ -171,7 +170,7 @@ canvas { display: block; }
 .hint span {
     display: inline-block;
     width: 8px; height: 8px;
-    border: 1px solid rgba(226, 54, 54, 0.6);
+    border: 1px solid rgba(226, 54, 54, 0.8);
     border-radius: 50%;
     margin-right: 8px;
     animation: hintPulse 2s ease-in-out infinite;
@@ -285,7 +284,7 @@ canvas { display: block; }
     .cursor, .cursor-dot { display: none !important; }
     body { cursor: auto; }
 
-    .logo { top: 20px; left: 20px; }
+    .logo { top: 18px; left: 20px; }
     .logo img { height: 45px !important; }
     .logo .line { width: 30px; margin-top: 8px; }
 
@@ -317,7 +316,7 @@ canvas { display: block; }
     }
 
     .hint {
-        bottom: 110px; right: 20px;
+        bottom: 105px; right: 20px;
         font-size: 10px;
         letter-spacing: 2px;
     }
