@@ -152,12 +152,12 @@ if (isMobile) {
 if (isMobile) {
     loadTex('assets/mobile/fundobrancomobilemenino.png', 'uBg1');
     loadTex('assets/mobile/fundobrancomobilespider.png', 'uBg2');
-    loadTex('assets/mobile/meninomobilesemfundo.png', 'uChar1');
+    loadTex('assets/mobile/meninomobilesemfundo.webp', 'uChar1');
     loadTex('assets/mobile/spidermobilesemfundo.png', 'uChar2');
 } else {
     loadTex('assets/desktop/fundo brancomenino.png', 'uBg1');
     loadTex('assets/desktop/fundobrancospider.png', 'uBg2');
-    loadTex('assets/desktop/Semfundomenino.png', 'uChar1');
+    loadTex('assets/desktop/Semfundomenino.webp', 'uChar1');
     loadTex('assets/desktop/semfundospider.png', 'uChar2');
 }
 document.addEventListener('mousemove', (e) => {
